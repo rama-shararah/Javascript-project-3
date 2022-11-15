@@ -1,0 +1,246 @@
+.navbar-collapse {
+    
+    flex-grow: 0;
+}
+
+  .navtext {
+ color: black;
+ font-size: 20PX;
+ text-decoration: none;
+ margin-left: 30px;
+ margin-right: 20px;
+
+}
+
+body{
+    background-color: #cee4e9;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: #729557 solid; */
+    
+}
+
+#listButton{
+    position: fixed;
+    left: 93%;
+    top: 15%;
+    height: 30px;
+    width: 40px;
+}
+
+#listButton:hover{
+    height: 39rem;
+    transition: 0.2s;
+}
+
+#listButton:hover> #hide{
+    display: unset;
+    
+}
+
+#hide{
+    display: none;
+    /* border: #000 solid; */
+    
+}
+
+
+.numbersLink{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border: solid 2px transparent;
+    
+}
+
+
+#container-fluid{
+    /* border: #729557 solid; */
+    height: 1050vh;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#div1{
+    
+    /* border: #729557 solid; */
+    height: 230vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
+    
+
+}
+
+#div2{
+    /* border: #729557 solid; */
+    height: 460vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+h3{
+text-align: center;
+
+}
+
+.h3Div{
+    /* border: #729557 solid; */
+    /* border-radius: 20px; */
+    background-color: #cee4e9;
+    width: 90%;
+}
+
+.div1Child{
+    border: #729557 solid;
+
+    
+}
+
+.question{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.yourAnswer{
+    /* border: rgb(134, 134, 134) solid 0.5px; */
+    border-radius: 8px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.footer{
+    background-color: #BBD8DE;
+    color:black;
+    font-size: 17px;
+    }
+    .foot{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    
+    }
+    .footer i:hover{
+    background-color:#BBD8DE;
+    border-radius: 5px;
+    color: black;
+    transition: 2px;
+    }
+    .footer ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    }
+    .footer ul .li{
+    display: flex;
+    }
+    .footer i{
+        margin-left: 50px;
+        transition: 0.6s;
+    }
+    .footer a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+
+
+    #container-fluid{
+        height: 780vh;
+    }
+
+    #div1{
+        height: 160vh;
+    }
+
+    .question{
+        font-size: 10px;
+    }
+
+    ol{
+        font-size: 10px;
+    }
+
+    .yourAnswer{
+        height: 20px;
+        font-size: 10px;
+        
+    }
+
+    #div2{
+        height: 360vh;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 15px;
+        
+        }
+
+        #listButton{
+            position: fixed;
+            left: 93%;
+            top: 15%;
+            height: 30px;
+            width: 40px;
+            display: none;
+        }
+
+        .footer ul{
+            flex-direction: column;
+            margin-top: 10px;
+            }
+            .footer li{
+            font-size: 7px;
+            }
+            .footer i{
+            margin-left: 20px;
+            font-size: 10px;
+            width: 100%;
+            margin-top: 10px;
+            }
+
+
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+    #div2{
+        height: 500vh;
+    }
+
+    .footer i{
+        margin-left: 31px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        }
+}

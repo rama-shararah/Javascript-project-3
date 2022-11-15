@@ -1,0 +1,343 @@
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+.container{
+width:90%;
+margin:0px auto;
+/* height:100px; */
+}
+img{
+width:100%;
+height: 100%;
+}
+ /* globle section */
+.main{
+background-image: url("religious-satisfied-female-model-has-arms-folded-looks-aside-has-pleased-expression-wears-pink-scarf-head-white-shirt-being-deep-thoughts-stands-blue-wall-copy-space-text.jpg");
+height: 91.70vh;
+background-repeat:no-repeat ;
+background-size: cover;
+position: relative;
+
+}
+.text{
+position: absolute;
+left:55%;
+top:20%;
+width:40%;
+background-color: white;
+padding: 50px;
+border:  black solid 50px;
+border:3px solid white;
+border-radius: 20px;
+opacity: 80%;
+font-size: 25px;
+font-weight: bolder;
+}
+.start{
+text-decoration: none;
+font-size: 25px;
+color: black;
+padding: 7px;
+border-radius: 10px;
+width: 50%;
+text-align: center;
+background-color: #BBD8DE;
+font-weight: normal;
+}
+a{
+text-decoration: none;
+color: white;   
+}
+/* Description */
+.Description .container .text2{
+border: 4px #BBD8DE solid;
+border-radius: 40px;
+background-color: rgb(222, 221, 221);
+font-size: 60px;
+width:100%;
+text-align: center;
+font-size: 30px;  
+padding: 20px;
+}
+.Description .container .text2 p{
+ color: black;
+ font-size: 20px;
+}
+/* Test */
+.Test .container .test {
+border:  #BBD8DE solid 5px;
+border-radius: 20px;
+color: black;
+background-color:  #BBD8DE;
+margin-top: 20px;
+margin-bottom: 20px;
+box-shadow: gray 5px 5px 10px;
+}
+.Test .container{
+    width: 50%;
+}
+.Test .container .test h2{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/*  */
+/* Boxes */
+/* Quizez */
+.quizez .container .all{
+justify-content: space-between;
+display: flex;
+    
+}
+.quizez .container .all .quiz1{
+background-color: #e3e3e3;
+border: black 2px solid;
+border-radius: 20px;
+width:28%;
+height: 200px;
+padding: 10px;
+}
+
+.box:hover {
+transform: scale(110%);
+
+}
+.quizez .container .all .quiz2{
+background-color: #e3e3e3;
+border: black 2px solid;
+border-radius: 20px;
+width:28%;
+height: 200px;
+padding: 10px;
+
+}
+.quizez .container .all .quiz3{
+background-color: #e3e3e3;
+border: black 2px solid;
+border-radius: 20px;
+width:28%;
+height: 200px;
+padding: 10px;
+}
+
+.quizez .container .quiz{
+display: flex;
+justify-content: space-between;
+}
+.quiz .box{
+width: 28%;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 5px 5px 10px  #BBD8DE;
+}
+.quiz .box div:first-child{
+height: 80%;
+align-items: center;
+}
+
+.quiz .box div:last-child{
+text-align: center;
+margin-bottom: 20px;
+}
+/* Footer */
+.footer{
+background-color: #BBD8DE;
+color:black;
+font-size: 17px;
+}
+.foot{
+display: flex;
+justify-content: space-between;
+width:90%;
+
+}
+.footer i:hover{
+background-color:#BBD8DE;
+border-radius: 5px;
+color: black;
+transition: 2px;
+}
+.footer ul{
+display: flex;
+gap: 10px;
+margin-top: 50px;
+}
+.footer ul .li{
+display: flex;
+}
+.footer i{
+    margin-left: 50px;
+    transition: 0.6s;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+/*  */
+@media (max-width:768px){
+.quiz .box{
+width: 100%;
+}
+}
+.quiz .box div:first-child{
+height: 80%;
+align-items: center;
+}
+.quiz .box div:last-child{
+text-align: center;
+margin-bottom: 20px;
+}
+a{
+text-decoration: none;
+color: black;
+transition: 0.6s;
+transform:scale(120%)
+}
+a:hover{
+padding: 10px;
+border:white;
+color:gray ;
+text-shadow: 5px 5px 15px white;
+}
+@media (max-width:768px){
+.Navbar .both .nav{
+display: none;
+}
+.Navbar .both i{
+display:block ;
+}
+}
+@media (min-width:0px) and (max-width:480px){
+.main .container .both img{
+width:100%;
+height: 100%;
+} 
+
+.main .container .both h1 {
+font-size:20px;
+}
+.main .container .both .text {
+margin-top: 0px;
+} 
+.quizez .container .quiz{
+flex-direction: column;
+width:100%;
+gap: 30px;
+font-size: 10px;
+margin-right: 20px;
+}
+.container .footertContant{
+flex-direction: column;
+}
+
+.Test .container  {
+    width: 95%;
+}
+.main{
+background-image: url("religious-satisfied-female-model-has-arms-folded-looks-aside-has-pleased-expression-wears-pink-scarf-head-white-shirt-being-deep-thoughts-stands-blue-wall-copy-space-text.jpg");
+height: 33vh;
+background-repeat:no-repeat ;
+background-size: contain;
+position: relative;}
+.text{
+position: absolute;
+left:57%;
+top:1.5%;
+width:40%;
+background-color: white;
+padding: 10px;
+border:  black solid 50px;
+border:3px solid white;
+border-radius: 20px;
+opacity: 80%;
+font-size: 8px;
+font-weight: bolder;
+}
+.start{
+text-decoration: none;
+font-size: 10px;
+color: black;
+padding: 7px;
+border-radius: 10px;
+width: 50%;
+text-align: center;
+background-color: #BBD8DE;
+font-weight: normal;
+}
+a{
+text-decoration: none;
+color: white;   
+}
+
+.footer ul{
+flex-direction: column;
+margin-top: 10px;
+}
+.footer li{
+font-size: 7px;
+}
+.footer i{
+margin-left: 20px;
+font-size: 10px;
+width: 100%;
+margin-top: 10px;
+}
+}
+/*  */
+@media (min-width:481px) and (max-width:768px){
+.main .container .both img{
+width:100%;
+height: 90%;
+} 
+.main .container .both h1 {
+font-size:30px;
+}
+.main .container .both .text {
+margin-top: 0px;
+}
+.quizez .container .quiz{
+flex-direction: column;
+width: 100%;
+gap: 30px;
+}
+.main .text{
+
+font-size: 12px;
+bottom: 20%;
+padding: normal;
+height: 300px;
+left:64%;
+top:20%;
+width: 35%;
+text-align: center;
+
+}
+.start{
+text-decoration: none;
+font-size:12px;
+color: black;
+padding: 7px;
+border-radius: 10px;
+width: 50%;
+text-align: center;
+background-color: #BBD8DE;;
+}
+a{
+text-decoration: none;
+color: white;   
+}
+.footer i{
+margin-left: 31px;
+font-size: 12px;
+margin-bottom: 20px;
+}
+.Test .container{
+    width: 70%;
+}
+}
+
+
+
+

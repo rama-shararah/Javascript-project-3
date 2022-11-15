@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
+    <style>
+     /* Footer */
+.footer{
+background-color: #BBD8DE;
+color:black;
+font-size: 17px;
+}
+.foot{
+display: flex;
+justify-content: space-between;
+width:90%;
+
+}
+.footer i:hover{
+background-color:#BBD8DE;
+border-radius: 5px;
+color: black;
+transition: 2px;
+}
+.footer ul{
+display: flex;
+gap: 10px;
+margin-top: 50px;
+}
+.footer ul .li{
+display: flex;
+}
+.footer i{
+    margin-left: 50px;
+    transition: 0.6s;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:480px){
+    .footer ul{
+flex-direction: column;
+margin-top: 10px;
+}
+.footer li{
+font-size: 7px;
+}
+.footer i{
+margin-left: 20px;
+font-size: 10px;
+width: 100%;
+margin-top: 10px;
+}
+}
+@media (min-width:481px) and (max-width:768px){
+    .footer i{
+margin-left: 31px;
+font-size: 12px;
+margin-bottom: 20px;
+}
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Footer --><br><br>
+<div class="footer" id="footer">
+    <div class="foot">
+    <div class="left">
+        <ul  type="none">
+            <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com" target="_blank"> FACEBOOK </a></i></li>
+            <li><i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com" target="blank"> LINKEDIN</a></i></li>
+            <li><i class="fa-sharp fa-solid fa-envelope"><a href="https://mail.google.com/mail/u/0/?pli=1#inbox" traget="blank">GMAIL</a></i></li>
+        </ul>
+    </div>
+        <div class="right">
+            <ul type="none">
+                <li><i class="fa-solid fa-copyright"> Copyright</i></li>
+                <li><i class="fa-solid fa-phone"> Telephone</i></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

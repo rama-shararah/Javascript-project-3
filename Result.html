@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+      <link rel="stylesheet" href="CSS/Result.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat">
+    <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
+    <script src="JS/bootstrap.js"></script>
+
+    
+    
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: white; border: #BBD8DE solid;" >
+    <div class="container-fluid">
+      <a class="navtext" class="navbar-brand " href="#" style="font-family: monospace;  ">Englestia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul id="navUl" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navtext" class="nav-link active" aria-current="page" href="/Batool/project3.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="navtext" class="nav-link" href="#" onclick="logout()">Log out</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+    
+     
+      <div class="mainContainer">
+           <div> <p class="mainText">Congratulations !</p></div>
+           <div> <p class="secondaryText">You Just Passed all of our quizzes ! </p></div>
+           <div> <img src="pass.png" class="mainImage" alt="graduation Image"></div>
+      </div><br>
+    <div class="resultContainer">
+        <div> <p class="resultMainText">Your result is : </p></div>
+        <div> <p class="resultsecondaryText">90/100 </p></div>
+    </div>
+    <div class="answersContainer">
+      <div class="card " style="background-color:#01AB87  ; text-align: center; ">
+        <img src="Media/true.png" class="card-img" alt="..."style="opacity: 0.3;" >
+        <div class="card-img-overlay">
+          <p class="cardTtitle">Your correct Answers</p>
+          <p class="cardText" id="correctanswers">You Answered 18 out of 20 Questions correctly</p>
+         
+        </div>
+      </div>
+      <div class="card" style="background-color:#FC7676 ; height: 470px; text-align: center;">
+        <img src="Media/False.png" class="card-img" alt="..." style="opacity: 0.3;">
+        <div class="card-img-overlay">
+          <p class="cardTtitle">Your Wrong Answers</p>
+          <p class="cardText" id="wronganswers">You Answered 2 out of 20 Questions incorrectly</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="progress-container">
+
+
+      
+            <div class="col-md-6">
+                <div class="progress red">
+                    <h3 class="progress-title">Imitate Level</h3>
+                    <div class="progress-bar">
+                        <div class="progress-value" id="imitateLevel">80%</div>
+                    </div>
+                </div>
+     
+                <div class="progress red">
+                    <h3 class="progress-title">Adapt Level</h3>
+                    <div class="progress-bar">
+                        <div class="progress-value" id="adaptLevel"></div>
+                    </div>
+                </div>
+                <div class="progress red">
+                  <h3 class="progress-title" >Transpose Level</h3>
+                  <div class="progress-bar">
+                      <div class="progress-value" id="transposeLevel"></div>
+                  </div>
+              </div>
+
+            </div>
+            
+            
+        </div>
+   
+    <div class="end-container">
+      <div>
+       <p class="endMain">We will get in touch with you soon</p>
+      </div>
+      <div>
+       <p class="endSecondary">In the meantime</p>
+      </div>
+      <Div class="links-container"> 
+        <div class="links">
+          <a href="details page/details.html" class="end">Check Your Answers</a></div> 
+          <div class="links"> <a href="Batool/project3.html" class="end">Visit Home Page</a></div></Div>
+    </div>
+
+<div class="footer" id="footer">
+    <div class="foot">
+    <div class="left">
+        <ul  type="none">
+            <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com" target="_blank"> FACEBOOK </a></i></li>
+            <li><i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com" target="blank"> LINKEDIN</a></i></li>
+            <li><i class="fa-sharp fa-solid fa-envelope"><a href="https://mail.google.com/mail/u/0/?pli=1#inbox" traget="blank">GMAIL</a></i></li>
+        </ul>
+    </div>
+        <div class="right">
+            <ul type="none">
+                <li><i class="fa-solid fa-copyright"> Copyright</i></li>
+                <li><i class="fa-solid fa-phone"> Telephone</i></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<script src="JS/Result.js"></script>
+</body>
+</html>

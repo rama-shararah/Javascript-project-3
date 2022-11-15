@@ -1,0 +1,225 @@
+.nav-style {
+    color: white;
+    background-color: #6DA6A1;
+    height: 80px;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.color-font {
+    color: white;
+}
+
+.nav-items-float-right {
+    margin-left: 60%;
+}
+
+/* big div for sign in  */
+.div-style-sign-in
+{
+    width: 100%;
+    height: 100vh;
+    background-image:url(images/4.jpg);
+    background-size: cover;
+    
+    position: relative;
+}
+
+/* div white for name && password  */
+.white-div-password{
+    width: 35%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+   
+    margin-left: 55%;
+    margin-top: 150px;
+    border-radius: 12px;
+
+}
+
+/* your name */
+.label-name{
+    margin-top: 16%;
+    margin-left: 12%;
+    font-size: x-large;
+    font-weight: bold;
+  
+}
+
+/* yourpaaword */
+.label-password{
+    margin-top: 10%;
+    margin-left: 12%;
+    font-size: x-large;
+    font-weight: bold;
+}
+/* style of sign in button */
+.span-of-sign-in-button{
+  
+    margin-left: 40%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #BBD8DE;
+    border-radius: 12px;
+}
+
+
+/* style of image  */
+
+.img-sign-in{
+    width: 70%;
+    margin-left: -90px;
+    margin-top: 22px;
+}
+
+/* extra class to input password  in tablet */
+/* .input-box{
+
+} */
+
+/* label your name */
+.yourname-box{
+    margin-left: 8%;
+}
+/* end of sign in on labtop  */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+   /* big div for sign in  */
+   .div-style-sign-in
+   {
+       width: 100%;
+       height: 100vh;
+       background-image:url(images/4.jpg);
+       background-size: cover;
+       
+       position: relative;
+   }
+ 
+/* div white for name && password  */
+.white-div-password{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+   
+    margin-left: 10%;
+    margin-top: 100%;
+    border-radius: 12px;
+
+}
+
+/* your name */
+.label-name{
+    margin-top: 16%;
+    margin-left: 22%;
+    font-size: large;
+    font-weight: bold;
+  
+}
+
+.label-password{
+    margin-top: 10%;
+    margin-left: 22%;
+    font-size: large;
+    font-weight: bold;
+}
+/* label your name */
+.yourname-box{
+    margin-left: 12%;
+}
+.input-box{
+    margin-left: 12%;
+}
+/* style of sign in button */
+.span-of-sign-in-button{
+  
+    margin-left: 30%;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+
+/* style of image  */
+
+.img-sign-in{
+    width: 90%;
+    margin-left: -90px;
+    margin-top: 80px;
+    height: 500px;
+}
+
+
+/* style of sign in button */
+/* .span-of-sign-in-button{
+  
+    margin-left: 20%;
+   
+} */
+
+}
+
+
+
+/* begin of tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+/* big div for sign in  */
+.div-style-sign-in
+{
+    width: 100%;
+    margin-left: 0%;
+    
+   
+}
+.white-div-password{
+    
+    height: 350px;
+
+
+}
+
+/* style of sign in button */
+.span-of-sign-in-button{
+  
+    margin-left: 33%;
+   
+}
+
+
+/* style of image  */
+
+.img-sign-in{
+    width: 90%;
+    margin-left: -120px;
+    margin-top: 80px;
+    height: 520px;
+}
+
+/* extra class to input password in tablet */
+.input-box{
+ margin-left: 40px;
+}
+
+.yourname-box{
+    margin-left: 40px;
+}
+
+.label-name{
+    margin-top: 16%;
+    margin-left: 20%;
+    
+    
+  
+}
+
+.label-password{
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+
+}  

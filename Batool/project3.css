@@ -1,0 +1,752 @@
+/* movement in css (effect) */
+
+
+.fa-facebook:before {
+    content: none;
+    display: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navUL {
+
+    margin-left: 150%;
+}
+
+.white-space-over-star {
+    background-color: #F4F3F3;
+    margin-top: -4%;
+    padding-top: 8px;
+    height: 500px;
+}
+
+.sign-in-style {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 40%;
+    color: #6DA6A1;
+}
+
+.navtext {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+
+
+}
+
+
+.a {
+    text-decoration: none;
+}
+
+.effect {
+
+    transition: 2s;
+
+}
+
+/* .effect-fontaw {} */
+
+.effect-fontaw:hover {
+    color: gray;
+}
+
+.effect:hover {
+
+    font-size: xx-large;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+/* .Sign-in {} */
+
+.sign-in :hover {
+    text-shadow: 2px 2px red;
+}
+
+/* .next{
+    font-size: 120px;
+} */
+/* .nav-style {
+    color: white;
+    background-color: #6DA6A1;
+    height: 80px;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.color-font {
+    /* color: white; */
+/* }
+
+.nav-items-float-right {
+    margin-left: 60%;
+
+} */
+*/
+
+/* slider next and previous button  */
+.next {
+    position: absolute;
+    margin-left: -16%;
+    margin-top: 300px;
+    background-color: #6DA6A1;
+    padding: 14px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    /* font-size: xxx-large; */
+}
+
+.previous {
+    position: absolute;
+    margin-left: -90%;
+    margin-top: 300px;
+    background-color: #6DA6A1;
+    padding: 14px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+#You-are-here {
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    left: 48rem;
+    top: 9rem;
+    /* border: white solid;
+    background-color: rgb(241, 123, 141);
+    border-radius: 10px;
+    opacity: 0.5; */
+    width: 36rem;
+    padding-left: 1.5%;
+    text-align: center;
+}
+
+.div-style {
+    width: 100%;
+
+
+    /* margin-left: 10%; */
+    /* border: 3px solid grey; */
+
+
+}
+
+#You-are-here-con {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/hijabi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#You-are-here-con:hover {
+    background-image: url(images/hijabi2.jpg);
+}
+
+.style-five-star {
+    margin-left: 40%;
+    margin-top: 12px;
+}
+
+.image-stars {
+    width: 40%;
+    height: 150px;
+    margin-left: 29%;
+    margin-top: 7%;
+}
+
+.style-english-quizz {
+    margin-left: 42%;
+    margin-top: 12px;
+}
+
+.desribtion {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 12px;
+    margin-bottom: 52px;
+}
+
+
+
+.div-opinion-trainee {
+    width: 50%;
+    height: 350px;
+
+
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 50px;
+    background-color: #F4F3F3;
+
+
+}
+
+.what-your-opinion {
+    margin-left: -160px;
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.TESTIMONIALS-word {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -20%;
+}
+
+.opinion-all {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    height: 500px;
+}
+
+#opinion1 {
+    width: 30%;
+    height: 350px;
+    background-color: #BBD8DE;
+
+    margin-left: 10%;
+    margin-top: -12%;
+    background-image: url(images/hijabi.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.opinion1-container {
+    margin-top: 0%;
+}
+
+#h1-opinion1 {
+    text-align: center;
+
+    display: none;
+    color: white;
+
+
+}
+
+#opinion1:hover {
+    background-image: none;
+}
+
+#opinion1:hover>#h1-opinion1 {
+    display: inline-block;
+}
+
+#opinion2 {
+    width: 30%;
+    height: 350px;
+    background-color: #BBD8DE;
+
+    margin-left: 60%;
+    margin-top: -57%;
+    background-image: url(images/hijabi.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.opinion2-container {
+    margin-top: 0%;
+}
+
+#h1-opinion2 {
+    text-align: center;
+
+    display: none;
+    color: white;
+
+
+}
+
+#opinion2:hover {
+    background-image: url();
+}
+
+#opinion2:hover>#h1-opinion2 {
+    display: inline-block;
+}
+
+/* #h1-opinion2:hover {
+    display: inline-block;
+} */
+
+/* .answer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 40px;
+} */
+
+.div-style-know-us {
+    height: 400px;
+    background-color: #BBD8DE;
+    margin-top: 10%;
+    width: 100%;
+    /* margin-left: 10%; */
+    /* border: 3px solid grey; */
+
+}
+
+.know-us {
+
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.we1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+    margin-left: 7%;
+
+}
+
+.name-qroup-and-position {
+    margin-left: 25px;
+    margin-top: 12px;
+
+}
+
+/* .fontawsome-image{
+    font-size: xx-large;
+    margin-left: 50px;
+} */
+
+/* .linked-in-footer {
+    font-size: xxx-large;
+    margin-left: 70px;
+    margin-top: 15px;
+    color: #BBD8DE;
+    ;
+}
+
+.email-footer {
+    font-size: xxx-large;
+    margin-left: 15px;
+    color: #BBD8DE;
+    ;
+}
+
+.facebook-footer {
+    font-size: xxx-large;
+    margin-left: 15px;
+    color: #BBD8DE;
+    ;
+} */
+
+/* .position-fullStack-at-tablet {} */
+
+/* .linked-in-foreveryperson {
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.email-foreveryperson {
+    font-size: xx-large;
+    margin-left: 10px;
+} */
+
+.footer {
+    background-color: #BBD8DE;
+    color: black;
+    font-size: 17px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.footer i:hover {
+    background-color: #BBD8DE;
+    border-radius: 5px;
+    color: black;
+    transition: 2px;
+}
+
+.footer ul {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.footer ul .li {
+    display: flex;
+}
+
+.footer i {
+    margin-left: 50px;
+    transition: 0.6s;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-facebook:before {
+    content: "";
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+    .sign-in-style {
+        border: 2px solid white;
+        border-radius: 12px;
+        padding: 12px;
+        margin-left: 20%;
+        color: #6DA6A1;
+    }
+
+    .white-space-over-star {
+        background-color: #F4F3F3;
+        margin-top: -35%;
+        padding-top: 8px;
+        height: 500px;
+    }
+
+    #You-are-here {
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        left: 9rem;
+        top: 8rem;
+
+
+        border-radius: 10px;
+        opacity: 0.5;
+        width: 10rem;
+        padding-left: 0%;
+        text-align: center;
+        margin-top: -30%;
+        margin-right: -20%;
+
+    }
+
+
+
+    #You-are-here-con {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        background-image: url(images/hijabi.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .nav-style {
+        width: 100%;
+    }
+
+    .div-style {
+        width: 100%;
+        margin-left: 0%;
+
+
+
+    }
+
+    /* slider next and previous button  */
+    .next {
+        position: absolute;
+        margin-left: -30%;
+        margin-top: 300px;
+        background-color: #6DA6A1;
+        padding: 14px;
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .style-five-star {
+        margin-left: 0%;
+        margin-top: 12px;
+    }
+
+    .image-stars {
+        width: 60%;
+        height: 150px;
+        margin-left: 20%;
+    }
+
+    .style-english-quizz {
+        margin-left: 25%;
+        margin-top: 12px;
+    }
+
+
+
+
+
+
+    .div-opinion-trainee {
+        width: 70%;
+        height: 100px;
+        border: 5px solid #6DA6A1;
+        border-radius: 20px;
+        float: right;
+        margin-top: 40px;
+        background-color: #F4F3F3;
+
+
+    }
+
+
+    .answer {
+
+        font-size: large;
+    }
+
+
+
+
+    .div-style-know-us {
+        height: 335px;
+        background-color: #BBD8DE;
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    .we1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+
+        margin-left: 20%;
+
+    }
+
+    .name-qroup-and-position {
+        margin-left: 25px;
+
+    }
+
+    /* .linked-in-footer {
+        font-size: x-large;
+        margin-left: 10px;
+        margin-top: 15px;
+        color: #6DA6A1;
+    }
+
+    .email-footer {
+        font-size: x-large;
+        margin-left: 15px;
+        color: #6DA6A1;
+    }
+
+    .facebook-footer {
+        font-size: x-large;
+        margin-left: 15px;
+        color: #6DA6A1;
+    } */
+
+    .footer ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .footer li {
+        font-size: 7px;
+    }
+
+    .footer i {
+        margin-left: 20px;
+        font-size: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .fa-facebook:before {
+        content: "";
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    .sign-in-style {
+
+        border-radius: 12px;
+        padding: 12px;
+        margin-left: 35%;
+
+    }
+
+    .white-space-over-star {
+        background-color: #F4F3F3;
+        margin-top: -8%;
+        padding-top: 8px;
+        height: 500px;
+    }
+
+    #You-are-here {
+        position: absolute;
+
+        font-size: 65px;
+        left: 1rem;
+        top: 9rem;
+        /* border: white solid;
+        background-color: rgb(241, 123, 141);
+        border-radius: 10px;
+        opacity: 0.5; */
+        width: 20rem;
+
+        text-align: center;
+    }
+
+    #You-are-here {
+        position: absolute;
+
+        font-size: 36px;
+        left: 27rem;
+        top: 10rem;
+    }
+
+    .nav-style {
+        width: 100%;
+    }
+
+
+
+
+    .div-style {
+        width: 100%;
+        margin-left: 0%;
+
+
+    }
+
+
+
+    .style-five-star {
+        margin-left: 30%;
+        margin-top: 12px;
+    }
+
+    .image-stars {
+        width: 60%;
+        height: 150px;
+        margin-left: 20%;
+    }
+
+    .style-english-quizz {
+        margin-left: 39%;
+        margin-top: 12px;
+    }
+
+
+
+
+
+
+    .div-opinion-trainee {
+        width: 100%;
+        height: 50px;
+
+        border-radius: 20px;
+        float: right;
+        margin-top: 40px;
+
+
+
+    }
+
+
+    .answer {
+
+        font-size: xx-large;
+    }
+
+
+
+
+    .div-style-know-us {
+        height: 320px;
+
+        width: 100%;
+        margin-left: 0%;
+        /* border: 3px solid grey; */
+    }
+
+    .we1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+
+        margin-left: 30%;
+
+    }
+
+    .name-qroup-and-position {
+        margin-left: 100px;
+
+    }
+
+    .position-fullStack-at-tablet {
+        margin-left: 40px;
+    }
+
+    .linked-in-foreveryperson {
+        font-size: xxx-large;
+        margin-left: 120px;
+    }
+
+    .email-foreveryperson {
+        font-size: xxx-large;
+        margin-left: 10px;
+    }
+
+    .linked-in-footer {
+        font-size: xxx-large;
+        margin-left: 10px;
+        margin-top: 15px;
+
+    }
+
+    .email-footer {
+        font-size: xxx-large;
+        margin-left: 15px;
+
+    }
+
+    .facebook-footer {
+        font-size: xxx-large;
+        margin-left: 15px;
+
+    }
+
+    .fa-facebook:before {
+        content: "";
+    }
+}

@@ -1,0 +1,285 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse {
+    
+  flex-grow: 0;
+}
+
+.navtext {
+color: black;
+font-size: 20PX;
+text-decoration: none;
+margin-left: 30px;
+margin-right: 20px;
+
+}
+
+.mainContainer
+{ padding-top: 70px;
+     display: flex;
+     background-color: #01AB87;
+     flex-direction: column;
+     align-items: center;
+     justify-content: end;
+     border-bottom: 3px solid white;
+}
+.mainText
+{ font-family: Caveat;
+    font-size: 100px;
+}
+.secondaryText
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.resultContainer
+{   
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+align-items: center;
+justify-content: start;
+height: 200px;   
+  gap:15px;
+  border-bottom: 4px solid white;
+
+}
+.resultMainText
+{ font-size: 40px;
+  font-weight: bold;
+    
+}
+.resultsecondaryText
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.answersContainer
+{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+
+
+}
+.cardText
+{
+    margin-top:70px;
+    font-size: 20px;
+    color: white;
+    
+}
+.cardTtitle
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top:100px ;
+    color: white;
+}
+.progress-container
+{   display: grid;
+    place-items: center;
+    border-bottom: 4px solid white;
+    background-color: white;
+    padding-bottom: 50px;
+    margin-top: 10rem;
+}
+
+
+.progress{
+  height: 40px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: none;
+  margin-top: 40px;
+  position: relative;
+}
+.progress .progress-title{
+  width: 25%;
+  height: 100%;
+  background: rgb(235, 229, 229);
+  border-radius: 100px 0 0 100px;
+  float: left;
+  margin: 0;
+  font-size: 15px;
+  color: #000;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.progress .progress-title:after{
+  content: "";
+  border-left: 10px solid rgb(235, 229, 229);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  z-index: 1;
+}
+.progress .progress-bar{
+  width: 80%;
+  background: rgb(235, 229, 229);
+  box-shadow: none;
+  position: relative;
+}
+.progress .progress-value{
+  height: 100%;
+  border-radius: 0 100px 100px 0;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+  animation: animate-positive 2s;
+}
+.progress.red .progress-value{ background: #ec4251; }
+.progress.green .progress-value{ background: #73cd21; }
+
+@keyframes animate-positive{
+  0%{ width: 0; }
+}
+  .end-container
+  {
+    display: flex;
+    background-color:#01AB87;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border-bottom: 4px solid white; */
+    gap: 20px;
+    padding: 30px;
+    margin-top: 3rem;
+
+  }
+  .endMain{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .links-container
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 100px;
+  }
+  .endSecondary
+  {
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+a{text-decoration: none; color: black; padding-left: 10px;}
+.links{ padding: 10px; padding-right: 20px; border-radius: 10px; background-color: white;}
+
+
+.footer{
+  background-color: white;
+  color:black;
+  font-size: 17px;
+  }
+  .foot{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  
+  }
+  .footer i:hover{
+  background-color:#BBD8DE;
+  border-radius: 5px;
+  color: black;
+  transition: 2px;
+  }
+  .footer ul{
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  }
+  .footer ul .li{
+  display: flex;
+  }
+  .footer i{
+      margin-left: 50px;
+      transition: 0.6s;
+  }
+@media screen and (min-device-width: 0px) and (max-device-width : 480px){
+  .footer ul{
+    flex-direction: column;
+    margin-top: 10px;
+    }
+    .footer li{
+    font-size: 7px;
+    }
+    .footer i{
+    margin-left: 20px;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 10px;
+    }
+
+  .endMain{font-size: 17px;}
+  .endSecondary{font-size: 17px;}
+  .links{  width: 100px; height: 70px; text-align: center;}
+  .end{padding-left: 0px; font-size: 10px;}
+  .progress{width: 300px;}
+  .progress .progress-title { width: 35%; font-size: 9px;}
+    .mainImage
+    {
+        height: 150px;
+        width: 310px;
+        
+    }
+    .mainText
+    {
+        font-size: 50px ;
+        margin-left: 10px;
+    }
+    .secondaryText
+    {
+        font-size: 18px ;
+        margin-left: 15px;
+
+
+    }
+    .answersContainer
+    { flex-direction: column;
+        gap: 20px;
+
+    }
+    .card{
+        height: 400px !important;
+    }
+    .skill-bars{ width: 310px;}
+}
+@media screen and (min-device-width: 481px) and (max-device-width : 768px){
+  .footer i{
+    margin-left: 31px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    }
+
+  .progress{ width: 500px;}
+  .mainImage
+  {
+      width: 700px;
+      
+  }
+    .card{
+        height: 352px !important;
+    }
+    .progress .progress-title{ width: 37%;}
+    .progress-container{margin-top: 5rem}
+    .mainText{margin-left: 100px;}
+    .cardTtitle {font-size: 30px;}
+}
+
+*{font-family: Arial;}
+

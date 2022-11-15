@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" href="Regestrationmedia.css">
+    <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #e3e3e3">
+    <!-- Navbar -->
+    <div class="Navbar">
+        <div class="both">
+            <div class="logo">
+                <h1> Logo </h1>
+                <!--font family + color -->
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            <div class="nav">
+                <ul type="none">
+                    <!-- display=flix -->
+                    <li><a href="#Home" id="items">Home</a></li>
+                    <li><a href="#Contact" id="items">Contact</a></li>
+                    <li><a href="#Services" id="items">Services</a></li>
+                    <li><a href="#Logout" id="items">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><br>
+    <div class="Registration">
+        <div class="both">
+            <div class="maininformation"><img src="info.jpg"> </div>
+            <div class="information">
+                <div class="container">
+                    <h1>Geeting Statred </h1><br><br>
+                    <div class="div"><label>First Name</label><input Type="text" placeholder="Enter Your First Name"
+                            id="firstname" onchange="getFname()"></div><br>
+                    <div class="div"><label>Last Name </label><input Type="text" placeholder="Enter Your Last Name"
+                            id="lastname" onchange="getLname()"></div><br>
+                    <div class="div"><label> Your Email </label><input Type="email" placeholder=" Enter Your Email" onchange=" ValidateEmail(this)"
+                            id="email" onchange="getEmail()"></div><br>
+                    <div class="div"><label>Your Password </label><input Type="password"
+                            placeholder="Enter Your Password" id="password" required onchange="ValidatePassword(this)"></div><br>
+                    <div class="div"><label>Confirm Password </label><input Type="password"
+                            placeholder="Confirm Your Password" id="confirmpassword" ></div>
+                    <br>
+                    <button class="button" onclick="signup()"><a href="#" class="signup" > Sign Up </a> </button><br><br>
+                    <a href="../Batool/Sign-in.html" class="login"> Already Have An Account?</a>
+                </div>
+            </div>
+        </div>
+        <script src="Registration.js"></script>
+</body>
+
+</html>
