@@ -21,6 +21,21 @@
     padding-top: 8px;
     height: 500px;
 }
+#You-are-here {
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    left: 48rem;
+    top:4rem;
+    /* border: white solid;
+    background-color: rgb(241, 123, 141);
+    border-radius: 10px;
+    opacity: 0.5; */
+    width: 36rem;
+    padding-left: 1.5%;
+    text-align: center;
+}
+
 
 .sign-in-style {
     border: 2px solid white;
@@ -28,6 +43,24 @@
     padding: 12px;
     margin-left: 40%;
     color: #6DA6A1;
+    position: absolute;
+    top:50%;
+    left: 25%;
+    width: 6.5rem;
+    font-size: 20px;
+}
+.sign-up-style {
+    border: 2px solid white; 
+    border-radius: 12px; 
+    padding:12px;
+    margin-left:10% ; 
+    color: #6DA6A1;
+    position: absolute;
+    top:50%;
+    left: 63%;
+    width: 6.5rem;
+    font-size: 20px;
+
 }
 
 .navtext {
@@ -48,7 +81,7 @@
 
 .effect {
 
-    transition: 2s;
+    transition: 1s;
 
 }
 
@@ -60,8 +93,8 @@
 
 .effect:hover {
 
-    font-size: xx-large;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 22px;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px rgb(60, 197, 204), 0 0 5px darkblue; */
 
 }
 
@@ -117,20 +150,6 @@
     font-weight: bold;
 }
 
-#You-are-here {
-    position: absolute;
-    color: white;
-    font-size: 65px;
-    left: 48rem;
-    top: 9rem;
-    /* border: white solid;
-    background-color: rgb(241, 123, 141);
-    border-radius: 10px;
-    opacity: 0.5; */
-    width: 36rem;
-    padding-left: 1.5%;
-    text-align: center;
-}
 
 .div-style {
     width: 100%;
