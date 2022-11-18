@@ -145,7 +145,12 @@ display: none;
     text-align: center;
     font-family: Arial;
 }
-
+#guide h3 {
+    font-size: 30px;
+    color: black;
+    font-family: Arial;
+  text-align: center;
+}
 #guide h4 {
     height: 50px;
     width: 100%;

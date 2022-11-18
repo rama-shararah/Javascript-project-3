@@ -132,40 +132,53 @@ ol{
     background-color: white;
 }
 
-.footer{
-    background-color: #BBD8DE;
-    color:black;
-    font-size: 17px;
-    }
-    .foot{
-    display: flex;
-    justify-content: space-between;
-    width:90%;
-    
-    }
-    .footer i:hover{
-    background-color:#BBD8DE;
-    border-radius: 5px;
-    color: black;
-    transition: 2px;
-    }
-    .footer ul{
-    display: flex;
-    gap: 10px;
-    margin-top: 50px;
-    }
-    .footer ul .li{
-    display: flex;
-    }
-    .footer i{
-        margin-left: 50px;
-        transition: 0.6s;
-    }
-    .footer a{
-        text-decoration: none;
-        color: black;
-    }
 
+    footer{
+        background-color: #030303;
+        width: 98.8vw;
+        height: 18vh;
+        position: relative;
+      }
+      footer>p{
+        color: white;
+        margin-left: 100px;
+      }
+      #contact{
+        /* border: solid white; */
+        width:40vw;
+        color: white;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      #icons{
+        width: 150px;
+        height: 30px;
+        /* border: solid white; */
+        display: inline;
+        position: absolute;
+        bottom: 40px;
+        left: 60rem;
+      
+      }
+      
+      .icon{
+        display: inline;
+      
+      }
+      #copyright{
+        position: absolute;
+        left: 78.7rem;
+        
+      }
+      #mylogo{
+        position: absolute;
+        left:77rem ;
+        bottom: 1.5rem;
+      }
 
 
 
@@ -215,32 +228,119 @@ ol{
             display: none;
         }
 
-        .footer ul{
+        footer{
+            background-color: black;
+            width: 100vw;
+            height: 30vh;
+            position: relative; 
+          }
+
+          footer>p{
+            color: white;
+            margin-left: 50px;
+           
+            
+          }
+          #contact{
+            /* border: solid white; */
+            width: 60vh;
+            color: white;
+            margin-left: 50px;
+            display: flex;
             flex-direction: column;
-            margin-top: 10px;
-            }
-            .footer li{
-            font-size: 7px;
-            }
-            .footer i{
-            margin-left: 20px;
+            justify-content: space-between;
             font-size: 10px;
-            width: 100%;
-            margin-top: 10px;
+          }
+          #icons{
+            width: 50px;
+            height: 24vh;
+            /* border: solid white; */
+            display:flex;
+            flex-direction: column;
+            position: absolute;
+            bottom: 10px;
+            left: 15rem;}
+          
+            
+            #copyright{
+              margin-left: 0rem;
+              margin-top: 0rem;
+              font-size: 10px;
+              top:90%;
+              left:45%;
+            }
+            #mylogo{
+                left: 0rem;
+                bottom: 0rem;
+                top:85%;
+                display: none;
             }
 
 
 
 }
 
+
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px){
     #div2{
-        height: 500vh;
+        height: 550vh;
+        /* border: #000 solid; */
+    }
+    #container-fluid{
+        height: 1110vh;
     }
 
-    .footer i{
-        margin-left: 31px;
-        font-size: 12px;
-        margin-bottom: 20px;
-        }
+    #listButton{
+        position: fixed;
+        left: 70%;
+        top: 15%;
+        height: 30px;
+        width: 40px;
+    }
+
+    
+
+
+        footer{
+            background-color: black;
+            width: 100%;
+            height: 25vh;
+            position: relative;
+            
+
+           
+          }
+          #contact{
+            /* border: solid white; */
+            width:80%;
+            color: white;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+          }
+          #copyright{
+            position: absolute;
+            left:35rem;
+            top: 8.5rem;
+            
+          }
+          #icons{
+            width: 150px;
+            height: 30px;
+            /* border: solid white; */
+            display: inline;
+            position: absolute;
+            bottom: 10px;
+            left: 22rem;
+
+          
+          }
+          #mylogo{
+            position: absolute;
+            left:0rem ;
+            bottom: 2rem;
+            display: none;
+          }   
 }

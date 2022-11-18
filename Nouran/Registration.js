@@ -1,4 +1,5 @@
 var i = 0;
+// localStorage.clear();
 function signup() {
     var flag = true;
     localStorage.setItem("i", i);
@@ -7,7 +8,7 @@ function signup() {
     var firstname = document.getElementById("firstname").value;
 
 
-  
+
     for (var x = 0; x < 10; x++) {
         if (firstname == localStorage.getItem("firstname" + x)) {
             alert("username is already taken");
@@ -43,8 +44,22 @@ function signup() {
         localStorage.setItem("Confirm-password" + i, Confirmpass);
 
 
-        
+
         location.href = "../Batool/project3.html"
+
+
+
+
+
+
+
+
+        var x = document.getElementById("confirmpassword");
+        // console.log(x);
+
+        localStorage.setItem("batool123", x);
+
+        console.log(localStorage.getItem("batool123"));
     }
 }
 // localStorage.clear();
@@ -73,11 +88,14 @@ function ValidatePassword(p) {
     }
 }
 
-
-flag = true;
-function equalpass(p) {
-    if (flag) {
-        alert("Not match");
-        flag = false;
-    }
-}
+// var pass = document.getElementById("password").value;
+// console.log
+// var Confirmpass = document.getElementById("confirmpassword").value;
+// function equalpass() {
+//     if (pass != Confirmpass) {
+//         alert("Wrong pass");
+//     }
+//     else {
+//         alert("works")
+//     }
+// }
